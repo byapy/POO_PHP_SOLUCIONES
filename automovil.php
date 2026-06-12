@@ -8,7 +8,7 @@
 <body>
     <h1>Registro de Automovil</h1>
 
-    <form action="automovil.php" method="post">
+    <form action="/automovil.php" method="post">
         <div>
             <label for="txt_Placa">Placa:</label>
             <input type="text" id="txt_Placa" name="txt_Placa" required>

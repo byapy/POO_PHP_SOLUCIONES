@@ -18,5 +18,14 @@
             $this->precio = $precio;
         }
 
+        public function MostrarDatos(){
+            echo("INFORMACION DEL VEHICULO");
+            echo("<br>Placa: ". $this->numeroPlaca);
+            echo("<br>Marca: ". $this->marca);
+            echo("<br>Modelo: ". $this->modelo);
+            echo("<br>Precio: Q". number_format($this->precio, 2));
+
+        }
+
     }
 ?>
