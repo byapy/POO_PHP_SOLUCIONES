@@ -46,6 +46,11 @@
             font-weight: 700;
         }
 
+        .related-nav {
+            max-width: 720px;
+            margin: 0 auto 16px;
+        }
+
         .form-label {
             font-weight: 600;
         }
@@ -84,12 +89,20 @@
             <li class="nav-item"><a class="nav-link" href="automovil.php">Automovil</a></li>
             <li class="nav-item"><a class="nav-link" href="motocicleta.php">Motocicleta</a></li>
             <li class="nav-item"><a class="nav-link active" href="empleado.php">Empleado</a></li>
+            <li class="nav-item"><a class="nav-link" href="personal.php">Personal</a></li>
             <li class="nav-item"><a class="nav-link" href="biblioteca.php">Biblioteca</a></li>
             <li class="nav-item"><a class="nav-link" href="cuentaBancaria.php">Cuenta Bancaria</a></li>
         </ul>
     </nav>
 
     <main class="form-page">
+        <nav class="related-nav">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active" href="empleado.php">Empleado</a></li>
+                <li class="nav-item"><a class="nav-link" href="personal.php">Personal</a></li>
+            </ul>
+        </nav>
+
         <section class="card form-card">
             <div class="card-body p-4 p-md-5">
                 <h1 class="form-title mb-4">Registro de Empleado</h1>

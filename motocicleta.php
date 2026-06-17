@@ -89,6 +89,7 @@
             <li class="nav-item"><a class="nav-link" href="automovil.php">Automovil</a></li>
             <li class="nav-item"><a class="nav-link active" href="motocicleta.php">Motocicleta</a></li>
             <li class="nav-item"><a class="nav-link" href="empleado.php">Empleado</a></li>
+            <li class="nav-item"><a class="nav-link" href="personal.php">Personal</a></li>
             <li class="nav-item"><a class="nav-link" href="biblioteca.php">Biblioteca</a></li>
             <li class="nav-item"><a class="nav-link" href="cuentaBancaria.php">Cuenta Bancaria</a></li>
         </ul>
